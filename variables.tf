@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "myJune2021Key"
+  default     =  "newtokyokey"
 }
 
 variable "instance_type" {
@@ -25,5 +25,5 @@ variable "tag_name" {
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0b9064170e32bde34"
+  default     = "ami-00f7e5c52c0f43726"
 }
